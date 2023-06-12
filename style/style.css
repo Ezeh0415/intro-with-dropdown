@@ -1,0 +1,464 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+
+html body{
+    display:grid;
+    justify-content: center;
+    align-items:center;
+    padding:0px;
+}
+
+.container{
+    margin-right: 7rem;
+}
+
+
+#nav-bar ul,ol{
+    list-style: none;
+}
+
+#nav-bar ul li{
+    margin:20px;
+}
+
+#nav-bar ol li:hover{
+    border:"solid";
+    padding:3px;
+    width:90px;
+}
+
+#nav-bar ol li{
+    margin:25px;
+}
+
+#nav-bar ol {
+    margin-right:-10rem;
+}
+
+#flexdiv{
+    flex-direction: row-reverse;
+}
+
+#mobile-img  img{
+    display:none;
+}
+
+#imgdiv img{
+    width:350px;
+    margin-right: rem;
+}
+
+#h1textflexdiv h1{
+    margin-top: -15px;
+    font-size: 70px;
+}
+
+#bodydiv{
+   margin-right: 1.8rem;
+}
+
+#bodydiv p{
+   font-size: large;
+   border:solid 1px transparent;
+   width:458px;
+}
+
+button{
+    position: relative;
+    top:-11rem;
+    width:150px;
+    background-color: black;
+    color:white;
+    padding:5px;
+}
+
+button:hover{
+    background-color: white;
+    color:black;
+}
+
+#logo-img-div{
+    position: relative;
+    top:-4.5rem;
+    right:3rem;
+}
+
+#logo-img-div img{
+    width:70px;
+    margin: 25px;
+}
+
+/* nav bar drop doen*/
+
+#futo{
+    display:none;
+    border:solid 1px transparent;
+    height:px;
+    overflow: hidden;
+    position: relative;
+    top:3rem;
+    right:8rem;
+    box-shadow: 4px 4px 8px black;
+    height:170px;
+}
+
+.d-grid{
+    border:solid transparent;
+    width:150px;
+    height:170px;
+    background-color: white;
+    box-shadow: 4px 4px 8px black;
+}
+
+.d-grid .d-flex span{
+    margin-top: 1rem;
+}
+
+.d-grid .d-flex i{
+    margin-top: 1rem;
+    margin-left:0.7rem;
+    font-weight: bold;
+}
+
+#s1{
+    color:darkblue;
+}
+#s2{
+    color:green;
+}
+#s3{
+    color:yellow;
+}
+#s4{
+    color:purple;
+}
+
+
+#futa{
+    display:none;
+    border:solid 1px transparent;
+    position:relative;
+    top:-1.5rem;
+    left:0rem;
+}
+
+.company-drop{
+        border:solid transparent;
+        width:120px;
+        height:170px;
+        background-color: white;
+        box-shadow: 4px 4px 8px black;
+        text-align: center;
+}
+
+.company-drop p{
+    margin-top: 1.5rem;
+    font-weight: bolder;
+}
+
+#main-mobile-nav{
+    display:none;
+}
+
+#h1flexdiv h1{
+    display:none;
+}
+
+@media screen and (max-width:767px) {
+    html body{
+        display:grid;
+        justify-content: center;
+        align-items: center;
+        padding:30px;
+    }
+
+    #desktop-nav{
+        display:none;
+    }
+
+    #main-mobile-nav{
+        display:block;
+    }
+
+    #borddiv {
+        display:none;
+        background-color:white;
+        color:black;
+        border: solid;
+        position: fixed;
+        width:210px;
+        height:100%;
+        margin-left: 9rem;
+        box-shadow: 4px 4px 10px white;
+    }
+
+    #a{
+        list-style: none;
+    }
+
+    #main-mobile-nav #nav-bar ul{
+        margin-left: 11.5rem;
+    }
+
+    #main-mobile-nav #nav-bar ul li{
+        margin: 1rem;
+    }
+
+    #mobile-img img{
+        display: block;
+        width:350px;
+        margin-top: 10px;
+        margin-left:-0.8rem;
+
+    }
+
+    #imgdiv img{
+        display:none;
+    }
+
+    #flexdiv{
+        display:block;
+    }
+
+    #nav-bar h2{
+        position: fixed;
+        top:-1rem;
+        left:2rem;
+    }
+
+    #spaa span{
+        position: fixed;
+        top:0.5rem;
+        left:20rem;
+    }
+
+    #h1flexdiv h1{
+        position:absolute;
+        display:block;
+        top:20rem;
+        left:2.8rem;
+        font-size: 32px;
+    }
+
+    #h1textflexdiv h1{
+        display:none;
+    }
+
+    #bodydiv p{
+        text-align: center;
+        border:solid 1px transparent;
+        width:75%;
+        font-size: 14px;
+        position:absolute;
+        top:22.5rem;
+        right:3.7rem;
+
+    }
+
+    button{
+        position: absolute;
+        top:28rem;
+        right:8rem;
+    }
+
+    #logo-img-div{
+        margin-top: 18rem;
+        margin-left:2rem;
+    }
+
+    #logo-img-div img{
+        margin:4px;
+        width:65px;
+    }
+
+    .company-drop{
+        background-color:black;
+    }
+
+    .d-grid{
+        background-color: black;
+    }
+
+    #futoo{
+        display:none;
+    }
+
+    #futaa{
+        display:none;
+    }
+
+}
+
+@media screen and (max-width:414px) {
+
+    #spaa span{
+        position: fixed;
+        top:0.5rem;
+        left:23rem;
+    }
+
+    #borddiv {
+        display:none;
+        background-color:black;
+        color:white;
+        border: solid;
+        position: fixed;
+        width:230px;
+        height:100%;
+        margin-left: 9rem;
+    }
+
+    #h1flexdiv h1{
+        position:absolute;
+        display:block;
+        top:20rem;
+        left:2.8rem;
+        font-size: 36px;
+    }
+
+    #bodydiv p{
+        text-align: center;
+        border:solid 1px transparent;
+        width:75%;
+        font-size: 18px;
+        position:absolute;
+        top:22.5rem;
+        right:3.7rem;
+
+    }
+
+    button{
+        position: absolute;
+        top:31rem;
+        right:9rem;
+    }
+
+    #logo-img-div{
+        margin-top: 22rem;
+        margin-left:2rem;
+    }
+
+  
+}
+
+@media screen and (max-width:393px) {
+    #spaa span{
+        position: fixed;
+        top:0.5rem;
+        left:21rem;
+    }
+
+    #h1flexdiv h1{
+        position:absolute;
+        display:block;
+        top:20rem;
+        left:2.2rem;
+        font-size: 37px;
+    }
+
+    #bodydiv p{
+        text-align: center;
+        border:solid 1px transparent;
+        width:75%;
+        font-size: 19px;
+        position:absolute;
+        top:22.5rem;
+        right:3.7rem;
+
+    }
+
+    button{
+        position: absolute;
+        top:32rem;
+        right:8rem;
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    #mobile-img img{
+        display: block;
+        width:350px;
+        margin-top: 10px;
+        margin-left:-0.2rem;
+
+    }
+
+    #spaa span{
+        position: fixed;
+        top:0.5rem;
+        left:21rem;
+    }
+
+    #h1flexdiv h1{
+        position:absolute;
+        display:block;
+        top:20rem;
+        left:22px;
+        font-size: 37px;
+    }
+
+    #bodydiv p{
+        text-align: center;
+        border:solid 1px transparent;
+        width:75%;
+        font-size: 19px;
+        position:absolute;
+        top:22.5rem;
+        right:3.7rem;
+
+    }
+
+    button{
+        position: absolute;
+        top:32rem;
+        right:7.5rem;
+    }
+}
+
+@media screen and (max-width:360px) {
+
+    #mobile-img img{
+        display: block;
+        width:350px;
+        margin-top: 10px;
+        margin-left:-0.2rem;
+
+    }
+
+    #spaa span{
+        position: fixed;
+        top:0.5rem;
+        left:21rem;
+    }
+
+    #h1flexdiv h1{
+        position:absolute;
+        display:block;
+        top:20rem;
+        left:14px;
+        font-size: 37px;
+    }
+
+    #bodydiv p{
+        text-align: center;
+        border:solid 1px transparent;
+        width:75%;
+        font-size: 19px;
+        position:absolute;
+        top:22.5rem;
+        right:3.7rem;
+
+    }
+
+    button{
+        position: absolute;
+        top:32rem;
+        right:7.5rem;
+    }
+}
