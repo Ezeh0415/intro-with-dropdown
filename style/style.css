@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    cursor: pointer;
 }
 
 
@@ -10,7 +9,7 @@ html body{
     display:grid;
     justify-content: center;
     align-items:center;
-    padding:0px;
+    cursor: pointer;
 }
 
 .container{
